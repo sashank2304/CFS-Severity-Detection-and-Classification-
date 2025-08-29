@@ -54,7 +54,7 @@ This script:
 - Fuses embeddings with original features for XGBoost classification
 - Prints performance metrics: accuracy, precision, recall, and F1-score
 
-## Core Code Snippet
+## Core 
 
 ```python
 !pip install torch torch-geometric xgboost scikit-learn pandas numpy
