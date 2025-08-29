@@ -16,14 +16,17 @@ This project implements a **hybrid machine learning model** that combines Graph 
 
 | File/Folder           | Purpose                                        |
 |-----------------------|------------------------------------------------|
-| `CFS-Code-Notepad.txt`| Python code for GCN + XGBoost model training and evaluation |
+| `main.py`| Python code for GCN + XGBoost model training and evaluation |
+| `preprocessing.py`| Python code for Pre Processing the CSV dataset |
 | `CFS_IEEE_REPORT-1.pdf` | Detailed project report and methodology      |
-| `preprocessed_CFS_dataset.csv` | Dataset used for training and testing (expected in project root) |
-| `README.md`           | This documentation                             |
+| `CFS_in_the_NHS 12_month_follow_up DATA_anonymised` | Original dataset obtained from the University of Bristol, made in colaboration with the UK's NHS |
+| `preprocessed_CFS_dataset.csv` | Dataset used for training and testing |
+| `CFS PPT Batch 12.ppt` | Powerpoint presentation made to breifly demonstrate the project |
+| `README.md`           | This documentation |
 
 ## Prerequisites
 
-- Python 3.x
+- Python3
 - PyTorch and PyTorch Geometric
 - XGBoost
 - scikit-learn
