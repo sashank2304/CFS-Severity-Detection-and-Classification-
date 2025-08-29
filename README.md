@@ -16,7 +16,7 @@ This project implements a **hybrid machine learning model** that combines Graph 
 
 | File/Folder           | Purpose                                        |
 |-----------------------|------------------------------------------------|
-| `main.py`| Python code for GCN + XGBoost model training and evaluation |
+| `maincode.py`| Python code for GCN + XGBoost model training and evaluation |
 | `preprocessing.py`| Python code for Pre Processing the CSV dataset |
 | `CFS_IEEE_REPORT-1.pdf` | Detailed project report and methodology      |
 | `CFS_in_the_NHS 12_month_follow_up DATA_anonymised` | Original dataset obtained from the University of Bristol, made in colaboration with the UK's NHS |
@@ -41,10 +41,10 @@ pip install torch torch-geometric xgboost scikit-learn pandas numpy
 
 ### Run Training and Evaluation
 
-Modify the dataset path in `CFS-Code-Notepad.txt` and run:
+Modify the dataset path in `maincode.py` and run:
 
 ```bash
-python CFS-Code-Notepad.txt
+maincode.py
 ```
 
 This script:
